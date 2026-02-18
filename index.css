@@ -1,0 +1,54 @@
+/* ((2 toggle
+.nav {
+  background: #222;
+  color: white;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle {
+  font-size: 22px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.menu {
+  background: #333;
+}
+
+.menu a {
+  display: block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background: #555;)) */
+  /* (#3) */
+ html, body {
+  margin: 0;
+}
+
+header {
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+}
+
+header > img {
+  width: 24px;
+  margin-right: 7px;
+}
+
+header > h1 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
